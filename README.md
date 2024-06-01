@@ -1,4 +1,4 @@
-# Predicting-Credit-Card-Default
+# Predicting Missed Payments from Credit Card Clients
 This is a project for the May 2024 Data Science Boot Camp at the Erdos Institute. 
 
 
