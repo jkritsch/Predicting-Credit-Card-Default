@@ -1,11 +1,11 @@
 # Predicting Missed Payments from Credit Card Clients
 
 ## Repository Structure 
- - `data' folder contains a copy of the credit card payment data
- - `preprocessing' folder contains files generated during data preprocessing
-   - search for instances of overlapping time windows for the takes a about 1.5 hours, so results were saved as 'shited_pairs.csv'
- - `notebooks' contains the notebooks we used to perform our analysis
- - `images'
+ - `data` folder contains a copy of the credit card payment data
+ - `preprocessing` folder contains files generated during data preprocessing
+   - search for instances of overlapping time windows for the takes a about 1.5 hours, so results were saved as `shited_pairs.csv`
+ - `notebooks` contains the notebooks we used to perform our analysis
+ - `images`
 
 ## Overview
 Credit card clients miss payments on their credit card debt for a variety of reasons. Being able to predict missed payments would allow banks, credit raters, and debt collectors to forecast their own operations, target interventions or financial products, and accurately appraise the value of credit card debt. In this project, we attempt to use a client’s payment history over a 6 month and demographic information to predict whether the client will miss a credit card payment next month. We used data obtained from a Kaggle competition page to train different classification models including logistic regressions, Bayesian models, Support Vector Classifiers, K-nearest neighbor models, and decision trees. We used cross validation and classification accuracy to compare different classification models. Our primary finding is that no model is able to accurately predict whether or not a client will miss a payment. This is a project for the May 2024 Data Science Boot Camp at the Erdos Institute. 
